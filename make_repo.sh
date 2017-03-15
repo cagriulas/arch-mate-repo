@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd arch_mate/
+cd arch_mate_pkgbuilds/
 mkdir -p ../arch-mate-repo/packages
 for i in `cat ../order|xargs` ; do
 echo $i
