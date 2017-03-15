@@ -12,3 +12,5 @@ gpg --detach-sign $package
 done
 cd ..
 repo-add mate-1.18.db.tar.gz ./packages/* -s
+mv ./packages/* .
+rm -rf ./packages
