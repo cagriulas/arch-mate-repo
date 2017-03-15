@@ -11,4 +11,4 @@ for package in `ls *.pkg.tar.xz|xargs` ; do
 gpg --detach-sign $package
 done
 cd ..
-repo-add mate-1.17.db.tar.gz ./packages/* -s
+repo-add mate-1.18.db.tar.gz ./packages/* -s
