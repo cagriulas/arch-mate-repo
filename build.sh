@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 cd arch_mate/
 for i in `cat ../order|xargs` ; do

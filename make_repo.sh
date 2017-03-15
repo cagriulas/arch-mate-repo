@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 cd arch_mate/
 mkdir -p ../arch-mate-repo/packages
